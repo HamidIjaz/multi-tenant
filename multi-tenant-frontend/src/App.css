@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f7f6;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  margin-bottom: 1.5rem;
+}
+
+.form-container div {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #d9534f;
+  margin-top: 1rem;
+}
