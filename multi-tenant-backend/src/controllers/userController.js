@@ -57,7 +57,6 @@ exports.getTenant = async (req, res) => {
       });
     }
 
-    // Find the tenant by the tenantId on the user token
     const tenant = await Tenant.findOne({
       where: { id: req.user.tenantId },
       include,
